@@ -65,7 +65,15 @@
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
         </plugin>
-        <plugin>
+        
+		
+		 	<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-deploy-plugin</artifactId>
+			<version>2.7</version>
+			</plugin>
+		
+	   <plugin> 
           <artifactId>maven-deploy-plugin</artifactId>
           <version>2.8.2</version>
   
@@ -82,4 +90,22 @@
       </plugins>
     </pluginManagement>
   </build>
+	
+	
+	
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-95-106.ec2.internal-releases</name>
+        <url>http://3.84.115.192:8081/artifactory/libs-release</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-95-106.ec2.internal-snapshots</name>
+        <url>http://3.84.115.192:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+	
+	
 </project>
