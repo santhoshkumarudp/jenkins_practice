@@ -54,7 +54,7 @@
 		  <configuration>
 		     <archive>
 			  <manifest>
-			    <mainClass>com.mycompany.app.App</mainClass>
+			    <mainClass>onmo_groupid.App</mainClass>
 				</manifest>
 		       </archive>
 			  </configuration>
