@@ -87,13 +87,13 @@
 <distributionManagement>
     <repository>
         <id>central</id>
-        <name>ip-172-31-44-175.ap-south-1.compute.internal-releases</name>
-        <url>http://13.233.214.17:8040/artifactory/libs-release</url>
+        <name>ip-172-31-34-29.ap-south-1.compute.internal-releases</name>
+        <url>http://52.66.156.189:8040/artifactory/libs-release</url>
     </repository>		
     <snapshotRepository>
         <id>snapshots</id>
-        <name>ip-172-31-44-175.ap-south-1.compute.internal-snapshots</name>
-        <url>http://13.233.214.17:8040/artifactory/libs-snapshot</url>
+        <name>ip-172-31-34-29.ap-south-1.compute.internal-snapshots</name>
+        <url>http://52.66.156.189:8040/artifactory/libs-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
