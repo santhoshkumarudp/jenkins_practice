@@ -14,6 +14,6 @@ RUN curl -O "http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.45/bin/apache-t
 RUN tar -xzvf apache-tomcat-8.5.45.tar.gz
 RUN mv apache-tomcat-8.5.45/* /opt/tomcat/.
 WORKDIR /opt/tomcat/webapps
-COPY /root/.jenkins/workspace/docker_job/target/App-1.0.2.jar /opt/tomcat/webapps/
+COPY target/App-1.0.2.jar /opt/tomcat/webapps/
 EXPOSE 8080
 CMD ["/opt/tomcat/bin/startup.sh", "run"]
